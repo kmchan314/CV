@@ -5,10 +5,8 @@
 }
 html {
 	background-color: #eeeeee;
-	background-image: url('images/wallpaper-1448284.jpg');
+	background-image: url('images/background.png');
 	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
 	}
 	
 body { 
@@ -18,9 +16,9 @@ body {
 	background-color: #ffffff;
 	margin: 40px auto;
 	padding: 60px;
-	box-shadow: 0 0 40px rgba(0,0,0,.5);
-	-moz-box-shadow: 0 0 30px rgba(0,0,0,.5);
-	-webkit-box-shadow: 0 0 30px rgba(0,0,0,.5);
+	box-shadow: 0 0 30px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 0 30px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,.2);
 	}
 
 a:link {
@@ -53,17 +51,25 @@ img {
 	font-size:110%;
 	}
 	} 
-	
+
+/* IMAGE STYLING */
 #profile-picture  {
-	margin: 5px;
+	margin: 7px;
 	padding:5px;
-	box-shadow: 0 0 10px rgba(0,0,0,.5);
-	-moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
-	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.2);
 	float:right;
 }
-	
+
+
 /* h1, h2, h3 {
 	font-family: Helvetica, arial, sans-serif;
 	} */
+
+/* MENU STYLING  */
+
+
+
+
 	
