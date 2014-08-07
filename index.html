@@ -11,25 +11,38 @@
     <title>Katie Chan Home</title>
     <!-- Title of the website-->
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:500,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="responsive-nav.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="responsive-nav.js"></script>
     <!-- link to style sheet. We can link to javascript files in a similar way -->
   </head>
   <body>
   <header>
       <h1>Katie Chan</h1>
-  <nav>
-	
-      <a href="index.html">Home</a> |
-      <a href="cv.html">My CV</a> |
-      <a href="contact.html">Contact</a>
-	 
-  </nav>
+  <nav class="nav-collapse nav-list">
+		  <ul>
+			<li>
+			  <a href="index.html">Home</a>
+			</li>
+			<li>
+			  <a href="cv.html">My CV</a>
+			</li>
+			<li>
+			  <a href="contact.html">Contact</a>
+			</li>
+		  </ul>
+	  </nav>
   </header>
+  <section> 
 	<h2>My Bio</h2>
 	<img src="images/KatieChan_small.png" id="profile-picture" />
     <p>I am currently a graduate student in the University of Maryland’s Master of Library Science (MLS) program. In 2010, I graduated with a bachelor’s degree in community health from the University of Maryland, where I was a School of Public Health Dean’s Scholar. After working for a federal contractor in the public health field, I decided to pursue my MLS degree.</p>
 
 	<p>I am a Library Technician II at the Universities at Shady Grove Priddy Library where I support the needs of the students and the Professional Library for the staff members of Montgomery County Public Schools (MCPS). My professional interests include medical librarianship, social media, consumer health, and emerging technologies.</p>
+	</section>
+	<script>
+	var nav = responsiveNav(".nav-collapse", {label:"&#9776; Menu"});
 	
+	</script>
   </body>
 </html>
