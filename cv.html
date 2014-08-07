@@ -8,7 +8,7 @@
     <!-- This is information for the computer. This information is not displayed by the browser, but is how we can link to our style sheets and javascript libraries, give title and author information for the page, give key words to aid search results, and the like. -->
     <meta charset="utf-8" />
     <!-- Telling the computer what encoding system we are using -->
-    <title>A simple HTML5 page layout</title>
+    <title>My CV</title>
     <!-- Title of the website-->
 	<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="style.css" />
@@ -18,11 +18,15 @@
     <!-- This opens the main body of the web page. Information inside the body tags is displayed -->
     <header>
       <h1>Katie Chan</h1>
-      <nav>
-      <a href="index.html">Home</a> | 
-      <a href="cv.html">My CV</a>|
-	  <a href="#">Contact</a>
-	  </nav> 
+	  <nav >
+	  <label for="show-menu" id="menu">&equiv;</label>
+	  <input type="checkbox" id="show-menu" role="button">
+	  <ul class="navig">
+		  <li><a href="index.html">Home</a></li> 
+		  <li><a href="cv.html">My CV</a></li> 
+		  <li><a href="#">Contact</a></li> 
+	  </ul>
+	 </nav>
 	</header>
       <p>Twitter: 
       <a href="https://twitter.com/kmchan64">@kmchan314</a> | Linkedin: 
