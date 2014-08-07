@@ -12,16 +12,21 @@
     <!-- Title of the website-->
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:500,700' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="SlickNav/slicknav.css" />
+	<script src="SlickNav/jquery.slicknav.min.js"></script>
+	<script>
+	$(function(){
+		$('#menu').slicknav();
+	});
+	</script>
     <!-- link to style sheet. We can link to javascript files in a similar way -->
   </head>
   <body>
     <!-- This opens the main body of the web page. Information inside the body tags is displayed -->
     <header>
       <h1>Katie Chan</h1>
-      <nav>
-      <label for="show-menu" id="menu">a</label> 
-      <input type="checkbox" id="show-menu" role="button" />
-      <ul class="navig">
+      <nav id="navig">
+      <ul id="menu">
         <li>
           <a href="index.html">Home</a>
         </li>
