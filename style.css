@@ -10,7 +10,7 @@ html {
 	}
 	
 body { 
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Segoe UI', Optima, sans-serif;
 	color: #333333;
 	width: 90%;
 	background-color: #ffffff;
@@ -20,23 +20,25 @@ body {
 	-moz-box-shadow: 0 0 30px rgba(0,0,0,.2);
 	-webkit-box-shadow: 0 0 30px rgba(0,0,0,.2);
 	}
-
+strong {
+	font-weight:700;
+	}	
+	
 a:link {
-	color:#88cc33;
+	color:#997E6A;
 	text-decoration:none;
 }
 a:visited{
-	color: #999999;
+	color: #aa8c76;
 	}
 a:hover{
-	color: #3388cc;
+	color: #a25151;
 }
 a:focus{
-	background-color:yellow;
-	color: #3388cc;
+	color: #6D175C;
 }
 a:active{
-	color:#3388c0;
+	color:#aa8c76;
 }
 	
 img {
@@ -62,12 +64,18 @@ img {
 	float:right;
 }
 
+/* Headers */
+h1, h2, h3 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #6d4e5c;
+	}
+h1 {
+	font-weight: 700;
+	}
+h2, h3 {
+	font-weight: 400;
+	}
 
-/* h1, h2, h3 {
-	font-family: Helvetica, arial, sans-serif;
-	} */
-
-	
 /* MENU STYLING  */
 /*Strip the ul of padding and list styling*/
 .navig ul {
