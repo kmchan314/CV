@@ -1,6 +1,6 @@
 /*! responsive-nav.js 1.0.32 by @viljamis */
 
-@media screen and (max-width: 40em){
+@media screen and (max-width: 50em){
 	.nav-collapse ul {
 	  margin: 0;
 	  padding: 0;
@@ -45,7 +45,7 @@
 	  padding: 10px 20px;
 	}
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 50em) {
   .js .nav-collapse {
     position: relative;
   }
