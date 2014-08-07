@@ -1,45 +1,50 @@
 /*! responsive-nav.js 1.0.32 by @viljamis */
 
-.nav-collapse ul {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: block;
-  list-style: none;
-}
+@media screen and (max-width: 40em){
+	.nav-collapse ul {
+	  margin: 0;
+	  padding: 0;
+	  width: 100%;
+	  display: block;
+	  list-style: none;
+	}
 
-.nav-collapse li {
-  width: 100%;
-  display: block;
-}
+	.js .nav-collapse {
+	  clip: rect(0 0 0 0);
+	  max-height: 0;
+	  position: absolute;
+	  display: block;
+	  overflow: hidden;
+	  zoom: 1;
+	}
 
-.js .nav-collapse {
-  clip: rect(0 0 0 0);
-  max-height: 0;
-  position: absolute;
-  display: block;
-  overflow: hidden;
-  zoom: 1;
-}
+	.nav-collapse li {
+	  width: 100% !important;
+	  display: block !important; 
+	}
 
-.nav-collapse.opened {
-  max-height: 9999px;
-}
+	.nav-collapse.opened {
+	  max-height: 9999px;
+	}
 
-.disable-pointer-events {
-  pointer-events: none !important;
-}
+	.disable-pointer-events {
+	  pointer-events: none !important;
+	}
 
-.nav-toggle {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
+	.nav-toggle {
+	  -webkit-tap-highlight-color: rgba(0,0,0,0);
+	  -webkit-touch-callout: none;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  -o-user-select: none;
+	  user-select: none;
+	  color: white !important;
+	  display:block;
+	  background-color: #6d4e5c;
+	  padding: 10px 20px;
+	}
 }
-
 @media screen and (min-width: 40em) {
   .js .nav-collapse {
     position: relative;
@@ -49,5 +54,7 @@
   }
   .nav-toggle {
     display: none;
+	
   }
+  
 }
