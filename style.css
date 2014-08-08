@@ -5,7 +5,7 @@
 }
 html {
 	background-color: #eeeeee;
-	background-image: url('images/background.png');
+	background-image: url('images/background_pr.png');
 	background-attachment: fixed;
 	}
 	
@@ -67,6 +67,11 @@ section {
 	margin:0px 10px 10px 20px;
 	padding:0px 10px 10px 20px;
 	}
+	
+	.cont-icons a {
+	color: #a25151;
+	margin: 5px 10px;
+	}
 	} 
 
 /* IMAGE STYLING */
@@ -100,8 +105,7 @@ h2, h3 {
   padding-left:0;
   width:100%;
   background-color: #CDB096;
-  text-align:center;
-  font-size: 
+  text-align:center; 
 }
 
 .nav-list li {
@@ -132,6 +136,16 @@ h2, h3 {
   background-color: #B2A962);  
 }
 
-
+/* Contact Icons */
+.cont-icons {
+	font-size:200%;
+	}
+.cont-icons a {
+	color: #a25151;
+	margin: 0px 5px;
+	}
+.cont-icons a:hover, a:focus {
+	color:#783C3C;
+	}
 
 	
