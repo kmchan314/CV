@@ -67,11 +67,6 @@ section {
 	margin:0px 10px 10px 20px;
 	padding:0px 10px 10px 20px;
 	}
-	
-	.cont-icons a {
-	color: #a25151;
-	margin: 5px 10px;
-	}
 	} 
 
 /* IMAGE STYLING */
@@ -148,4 +143,24 @@ h2, h3 {
 	color:#783C3C;
 	}
 
+/* Contact form styling */
+	.contlabel {
+		display:block;
+		width: 70%;
+		}
+	.contform {
+		border: 1px solid #999999;
+		margin-bottom:1em;
+		width: 40%;
+		}
+	.conttextarea  {
+		height:100px;
+		width: 70%;
+		}
+
+	.formcapt {
+		font-size: 70%;
+		color: #a25151;
+		font-weight:700;
+		}
 	
